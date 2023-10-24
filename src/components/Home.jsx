@@ -17,7 +17,7 @@ const Home = () => {
                     Lorem ipsum dolor sit amet consectetur adipisicing 
                     elit. 
                     Nulla velit a quasi mollitia. Ipsam ad deserunt ratione
-                     iure perspiciatis eligendi.
+                    iure perspiciatis eligendi.
                 </p>
                 <div>
                     <Link 
@@ -36,7 +36,7 @@ const Home = () => {
             </div>
             <div>
                 <img src={HeroImage} alt="my profile" 
-                className="rounded-2xl mx-auto w-2/3 md:w-full" 
+                className="rounded-2xl mx-auto w-3/4 md:w-full" 
                 />
             </div>
         </div>
