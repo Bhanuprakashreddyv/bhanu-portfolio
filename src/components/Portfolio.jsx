@@ -64,11 +64,11 @@ const Portfolio = () => {
                         hover:scale-105'>Code</button>
                     </div>
                 </div>
-                ))};
+                ))}
             </div>           
         </div>
     </div>
-  );
+  )
 };
 
 export default Portfolio;
