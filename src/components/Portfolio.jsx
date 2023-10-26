@@ -1,5 +1,5 @@
 import React from 'react';
-import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg';  //import images to use here
+import Weather from '../assets/portfolio/Weather.jpg';  //import images to use here
 import installNode from '../assets/portfolio/installNode.jpg';
 import navBar from '../assets/portfolio/navbar.jpg';
 import reactParallax from '../assets/portfolio/reactParallax.jpg';
@@ -11,7 +11,10 @@ const Portfolio = () => {
     const portfolios = [                  //this is where you need to add your projects one by one
         {
             id: 1,                          //this number specifies where to put your portfolio
-            src: arrayDestruct 
+            src: Weather,
+            demoUrl: 'https://bhanuprakashreddyv.github.io/Weather-Report/', // Replace with the actual demo URL
+            codeUrl: 'https://github.com/Bhanuprakashreddyv/Weather-Report',
+
             //Need to import the links to open the project             //this is the file name after you are importing
         },
         {
@@ -50,7 +53,7 @@ const Portfolio = () => {
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8
             px-12 sm:px-0'>
                 {
-                portfolios.map(({id, src}) => (
+                portfolios.map(({id, src, demoUrl, codeUrl}) => (
                 <div key={id}
                 className='shadow-md shadow-gray-600 rounded-lg'>
                     <img src={src} 
@@ -58,10 +61,9 @@ const Portfolio = () => {
                     className='rounded-md duration-200 hover:scale-105'
                     />
                     <div className='flex items-center justify-center'>
-                        <button /*give Onclick function here*/ className='w-1//2 px-6 py-3 m-4 duration-200
-                        hover:scale-105'>Demo</button>
-                        <button className='w-1/2 px-6 py-3 m-4 duration-200
-                        hover:scale-105'>Code</button>
+                    <a href={demoUrl} target="_blank" rel="noopener noreferrer" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</a>
+                    <a href={codeUrl} target="_blank" rel="noopener noreferrer" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</a>
+                        
                     </div>
                 </div>
                 ))}
