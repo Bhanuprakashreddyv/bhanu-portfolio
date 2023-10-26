@@ -1,9 +1,9 @@
 import React from 'react';
 import Weather from '../assets/portfolio/Weather.jpg';  //import images to use here
-import installNode from '../assets/portfolio/installNode.jpg';
-import navBar from '../assets/portfolio/navbar.jpg';
-import reactParallax from '../assets/portfolio/reactParallax.jpg';
-import reactSmooth from '../assets/portfolio/reactSmooth.jpg';
+import Calculator from '../assets/portfolio/Calculator.jpg';
+import QRCodeGenerator from '../assets/portfolio/QRCodeGenerator.jpg';
+import Balara from '../assets/portfolio/Balara.jpg';
+import NWL_AssetManagement from '../assets/portfolio/NWL_AssetManagement.jpg';
 
 
 
@@ -19,19 +19,29 @@ const Portfolio = () => {
         },
         {
             id: 2,
-            src: reactParallax
+            src: Balara,
+            demoUrl: 'https://bhanuprakashreddyv.github.io/Balara/',
+            codeUrl: 'https://github.com/Bhanuprakashreddyv/Balara',
         },
         {
             id: 3,
-            src: navBar
-        },
-        {
-            id: 4,
-            src: reactSmooth
+            src: QRCodeGenerator,
+            demoUrl: 'https://bhanuprakashreddyv.github.io/QR-code-generator/',
+            codeUrl: 'https://github.com/Bhanuprakashreddyv/QR-code-generator',
+
         },
         {
             id: 5,
-            src: installNode
+            src: Calculator,
+            demoUrl: 'https://bhanuprakashreddyv.github.io/Calculator/',
+            codeUrl: 'https://github.com/Bhanuprakashreddyv/Calculator',
+
+
+        },
+        {
+            id: 4,
+            src: NWL_AssetManagement,
+            codeUrl: 'https://github.com/Bhanuprakashreddyv/NWL-APP-to-manage-their-assets',
         },
     ];
   return (
