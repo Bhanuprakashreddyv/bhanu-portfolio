@@ -15,21 +15,21 @@ const About = () => {
                     About
                 </p>
             </div>
-            <p className='text-xl mt-0 sm:mt-0 sm:py-3'>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                 Nulla neque cupiditate recusandae sunt magni distinctio 
-                 aut incidunt facilis illo quis aperiam ducimus officia, 
-                 pariatur quas. Hic iure, repellendus velit quam autem deserunt 
-                 facere quidem. Dignissimos, facere in. Necessitatibus earum praesentium 
-                 minima! Eaque ducimus magnam quasi ipsum, in aliquam tenetur similique?
+            <p className='text-2xl mt-0 sm:mt-0 sm:py-3'>
+            As a dedicated and passionate Front-End Developer, 
+            my journey in the world of web development has been 
+            defined by my unwavering commitment to creating engaging 
+            and responsive user experiences. With a strong foundation in HTML, 
+            CSS, JavaScript, and React, My portfolio 
+            showcases a diverse range of projects, each a testament to my ability to
+            bridge creativity with functionality.
             </p>
             <br />
-            <p className='text-xl'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero at adipisci
-                 molestias consequuntur? Nihil earum esse ipsum quibusdam. Atque itaque, 
-                 tempora quas fugit consectetur dolor reprehenderit nesciunt perspiciatis 
-                 magnam vitae sapiente aperiam molestiae rem aliquid neque? In unde necessitatibus 
-                 soluta perspiciatis nostrum, earum doloribus odio! Repellat minus quaerat optio maiores.
+            <p className='text-2xl'>
+            My development journey extends to creating intuitive user interfaces, 
+            ensuring optimal performance, and staying at the forefront of web development trends. 
+            I believe in the power of technology to transform ideas into reality, 
+            and I'm always eager to take on new challenges. 
             </p>
         </div>
     </div>

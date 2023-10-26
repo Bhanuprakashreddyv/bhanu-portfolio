@@ -14,10 +14,7 @@ const Home = () => {
                 text-white">
                     I'm a Front-End Developer</h2>
                 <p className="text-gray-500 py-4 max-w-md">
-                    Lorem ipsum dolor sit amet consectetur adipisicing 
-                    elit. 
-                    Nulla velit a quasi mollitia. Ipsam ad deserunt ratione
-                    iure perspiciatis eligendi.
+                    A Hobby Turned into a Programmer.
                 </p>
                 <div>
                     <Link 
