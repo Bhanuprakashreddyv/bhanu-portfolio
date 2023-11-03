@@ -1,15 +1,15 @@
 import React from 'react'
-import HeroImage from '../assets/heroImg.jpeg';
+import HeroImage from '../assets/HERO.jpeg';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 import { Link } from 'react-scroll';
 
 const Home = () => {
   return (
     <div name="home" className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800">
-        <div className="max-w-screen-lg mx-auto flex flex-col md:flex-row items-center justify-center h-full p-4">
+        <div className="max-w-screen-lg mx-auto flex flex-col md:flex-row items-center justify-center h-full p-10">
             <div className="flex flex-col justify-center">
-                <h2 className="text-4xl sm:text-7xl font-bold text-white">
-                    I'm a Front-End Developer
+                <h2 className="text-4xl sm:text-6xl font-bold text-white">
+                    I'm a Front-End Developer.
                     </h2>
                 <p className="text-gray-500 py-4 max-w-md">
                     A Hobby Turned into a Programmer.
@@ -29,9 +29,9 @@ const Home = () => {
                     </Link>
                 </div>
             </div>
-            <div>
+            <div className="md:w-full mt-8 pl-16">
                 <img src={HeroImage} alt="my profile" 
-                className="rounded-2xl mx-auto w-3/4 md:w-full mt-10" 
+                className="rounded-2xl w-3/4" 
                 />
             </div>
         </div>
