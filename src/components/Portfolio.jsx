@@ -3,6 +3,7 @@ import Weather from '../assets/portfolio/Weather.jpg';  //import images to use h
 import Calculator from '../assets/portfolio/Calculator.jpg';
 import QRCodeGenerator from '../assets/portfolio/QRCodeGenerator.jpg';
 import Balara from '../assets/portfolio/Balara.jpg';
+import NewsMagz from '../assets/portfolio/NewsMegz.png';
 import NWL_AssetManagement from '../assets/portfolio/NWL_AssetManagement.jpg';
 
 
@@ -42,6 +43,11 @@ const Portfolio = () => {
             id: 4,
             src: NWL_AssetManagement,
             codeUrl: 'https://github.com/Bhanuprakashreddyv/NWL-APP-to-manage-their-assets',
+        },
+        {
+            id: 5,
+            src: NewsMagz,
+            codeUrl: 'https://github.com/Bhanuprakashreddyv/news-megz',
         },
     ];
   return (
