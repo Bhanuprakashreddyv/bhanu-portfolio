@@ -32,7 +32,7 @@ const Footer = () => {
           </a>
             {/* Resume */}
             <a
-            href="/(main)Bhanu Prakash Reddy VENNAPUSA_Resume.pdf"
+            href="/(main)Bhanu Prakash Reddy VENNAPUSA_Resume.pd"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-gray-500"
