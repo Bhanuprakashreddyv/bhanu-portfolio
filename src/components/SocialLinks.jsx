@@ -43,7 +43,7 @@ const SocialLinks = () => {
             ),
             href: '/(main)Bhanu Prakash Reddy VENNAPUSA_Resume.pd', // made change here after you updated your resume
             style: 'rounded-br-md',
-            download: true,
+            download: false,
         },
     ];
   return (
@@ -56,8 +56,8 @@ const SocialLinks = () => {
                 className='flex justify-between items-center w-full
                  text-white'
                  download={download}
-                 target="_blank"
-                 rel="noreferrer"
+                target={download ? '_self' : '_blank'}  // Open in new tab if download is false
+                rel="noreferrer"
                 >
                    {child}
                 </a>

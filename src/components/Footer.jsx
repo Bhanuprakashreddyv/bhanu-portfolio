@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
+import { BsFillPersonLinesFill } from 'react-icons/bs';
 
 const Footer = () => {
   return (
@@ -28,6 +29,15 @@ const Footer = () => {
           {/* Email */}
           <a href="mailto:v.bhanureddy184@gmail.com" className="hover:text-gray-500">
             <HiOutlineMail size={30} />
+          </a>
+            {/* Resume */}
+            <a
+            href="/(main)Bhanu Prakash Reddy VENNAPUSA_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-gray-500"
+          >
+            <BsFillPersonLinesFill size={30} />
           </a>
         </div>
         <div>
