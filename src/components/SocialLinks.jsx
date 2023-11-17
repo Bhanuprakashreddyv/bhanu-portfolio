@@ -41,7 +41,7 @@ const SocialLinks = () => {
                 Resume <BsFillPersonLinesFill size={30} />
                 </>
             ),
-            //href: '/(main)Bhanu Prakash Reddy VENNAPUSA_Resume.pdf', // made change here after you updated your resume
+            href: '/Bhanu_VENNAPUSA Resume.pdf', // made change here after you updated your resume
             style: 'rounded-br-md',
             download: false,
         },
