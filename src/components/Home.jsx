@@ -32,7 +32,7 @@ const Home = () => {
               href="/Bhanu_VENNAPUSA Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white px-6 py-3 my-2 pr-8 flex items-center rounded-md bg-gradient-to-r
+              className="text-white px-6 py-3 my-2 pr-8 flex items-center font-semibold rounded-md bg-gradient-to-r
                 from-yellow-800 to-green-900 cursor-pointer sm:ml-4 mr-40 pl-9"
             >
               Resume
