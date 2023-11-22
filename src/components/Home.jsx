@@ -27,6 +27,19 @@ const Home = () => {
                             className="ml-1" />
                         </span>
                     </Link>
+                    <a
+              href='/Bhanu_VENNAPUSA Resume.pdf'
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white px-10 py-3 my-2 mr-96 flex items-center rounded-md bg-gradient-to-r
+                from-yellow-800 to-green-900 cursor-pointer sm:ml-4"
+            >
+              Resume
+              {/* <span className="group-hover:rotate-90 duration-300">
+                <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
+              </span> */}
+            </a>
+                    
                 </div>
             </div>
             <div className="md:w-full mt-8 pl-16">
